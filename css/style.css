@@ -404,6 +404,15 @@ a {
   display: none;
 }
 
+@media (max-width: 2400px) {
+  #top-right-blk-img-button-cont button {
+    margin-top: 35%;
+    left: 65%;
+    width: 10vw;
+    height: 5vh;
+  }
+}
+
 @media (max-width: 768px) {
   #right-img img {
     width: auto;
