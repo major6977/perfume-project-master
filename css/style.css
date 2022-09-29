@@ -74,7 +74,6 @@ a {
 
 #left-content-right-img-cont {
   display: flex;
-
   height: 100%;
   width: auto;
 }
@@ -91,8 +90,8 @@ a {
 
 #left-content h1 {
   padding-top: 5%;
-  /* padding-left: 5px; */
 }
+
 #left-content h3 {
   padding-top: 5%;
   color: lightgray;
@@ -100,6 +99,7 @@ a {
   font-family: var(--hfonts);
   font-size: var(--small);
 }
+
 #left-content p {
   font-family: cursive;
   padding-top: 5%;
@@ -175,7 +175,6 @@ a {
 
 #left-img-txt-cont img {
   position: absolute;
-  /* height: 65%; */
   width: 80%;
   display: inline-block;
   bottom: 0;
@@ -188,12 +187,6 @@ a {
 }
 
 #left-bottom-lrg-img-cont {
-  /* height: 95%;
-  width: 33%;
-  position: relative;
-  top: 0;
-  bottom: 0; */
-
   position: relative;
   display: flex;
   flex-direction: column;
@@ -204,6 +197,7 @@ a {
   padding-top: 12%;
   background-color: white;
 }
+
 #left-bottom-lrg-img-cont img {
   position: absolute;
   width: 90%;
@@ -288,6 +282,7 @@ a {
   background-color: black;
   border: 1px solid white;
 }
+
 #middle-wht-cont {
   display: flex;
 }
@@ -377,6 +372,7 @@ a {
   color: white;
   padding-top: 5%;
 }
+
 #last-bottom-right-txt h3 {
   color: white;
   padding-top: 5%;
@@ -385,13 +381,6 @@ a {
 
 #blink {
   position: relative;
-}
-
-/* Animation styles */
-
-.fade-up {
-  /* transform: translateY(-100%); */
-  /* opacity: 0; */
 }
 
 /* Mobile Media Queries */
@@ -417,7 +406,6 @@ a {
   #right-img img {
     width: auto;
     height: 68%;
-    /* top: 10vh; */
   }
 
   #top-bottom-left-cont {
@@ -484,6 +472,7 @@ a {
     height: 10%;
     background-color: #e3e3ee;
   }
+
   .spring-sale h3 {
     font-size: xx-large;
   }
@@ -527,11 +516,13 @@ a {
     display: block;
     padding: 0;
   }
+
   #left-content p {
     padding: 5%;
     margin-right: 0;
     text-align: center;
   }
+
   #left-content h3 {
     text-align: center;
   }
@@ -551,11 +542,11 @@ a {
     width: 100vw;
     margin-top: 5%;
     display: flex;
-    /* display: inline-block; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
+
   #two-small-img-cont img {
     height: auto;
     width: 90vw;
@@ -626,7 +617,6 @@ a {
     display: flex;
     align-items: center;
     margin-left: 0;
-    /* height: auto; */
   }
 
   #left-img-txt-cont img {
@@ -671,13 +661,7 @@ a {
 
   #small5-perfume-img-cont {
     flex-direction: column;
-    /* justify-items: center; */
     align-items: center;
-
-    /* display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center; */
   }
 
   #small5-perfume-img-cont img {
@@ -687,7 +671,6 @@ a {
   }
 
   #bottom-right-cont {
-    /* position: static; */
     position: relative;
     display: block;
     height: auto;
@@ -703,7 +686,6 @@ a {
 
 .topnav {
   overflow: hidden;
-  /* background-color: #333; */
   position: relative;
 }
 
